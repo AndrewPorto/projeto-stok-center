@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    background: white;
+    width: 300px;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+     
+}
+
+
+
+form {
+    
+}
+
+    
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 80%;
+    background: #EC1D23;
+    cursor: pointer;
+    color:white;
+    font-size: 10pt;
+    font-weight: 200;
+    border-radius: 4px;
+   
+}

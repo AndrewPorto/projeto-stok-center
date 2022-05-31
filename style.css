@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #EC1D23;
+    padding: 5px;
+    font-family: "Signika Negative", sans-serif;
+    
+}
+
+.navegação {
+    display: flex;
+    justify-content: center;
+    
+}   
+
+.container {
+    display: flex;
+    margin-left: 10%;
+    align-items: center;  
+}
+
+.pesquisa {
+
+    display: flex;
+}
+
+    
+
+#botao {
+    background-color: #414143;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 14px;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+  
+}
+
+#botao:hover {
+    background-color: #282829;
+}
+
+
+
+#search {
+    display: flex;
+    width: 600px;
+    height: 35px;
+    margin-left: 200px;
+    border-radius: 3px;
+    text-indent: 10px;
+    
+    
+}
+
+#buscar {
+    background-color: #414143;
+    font-family: "Signika Negative", sans-serif;
+    color: white;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 3px;
+}
+
+#buscar:hover {
+    background-color: #282829;
+}
+
+
+.departamentos {
+    padding: 20px;
+    margin-top: 1px;
+    text-align: center;
+    background-color: #EC1D23;
+    
+}
+
+.dep {
+    text-decoration: none;
+    font-size: 10pt;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Signika Negative', sans-serif;
+    
+}
+
+.dep:hover {
+    background-color: #414143;
+    border: 1px solid black;
+}
+
+.imglogo {
+    width: 180px;
+    margin-left: 50px;
+}
+
+.esquerda, .direita {
+   
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: white;
+    width: 10px;
+    font-size: 50px;
+    color: #A6D1FF;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+   
+    
+}
+
+.carousel p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 9pt;
+    position: sticky;
+    display: block;
+    text-align: center;
+}
+
+.carousel .icons {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rolar {
+    display: flex;
+    
+}
+
+.rolar .direita{
+    justify-content: right;
+}
+
+.carousel .left {
+    position: absolute;
+    left: 300px;
+}
+
+.carousel .right {
+    position: absolute;
+    right: 300px;
+}
+
+.pagina02 {
+    background-color: #EC1D23;
+}
