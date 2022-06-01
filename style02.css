@@ -1,30 +1,72 @@
-main {
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}   
+
+.formulario {
     display: flex;
     background: white;
+    height: 300px;
     width: 300px;
     padding: 2rem;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     text-align: center;
     border-radius: 8px;
-    justify-content: center;
     margin: auto;
     flex-direction: column;
      
 }
 
-
-
-form {
-    
+.input-field {
+    position: relative;
+    padding-top: 30px;
 }
 
-    
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.input-field .underline::before {
+    content:'';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.input-field .underline::after {
+    content:'';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #ee0423, #ff0202);
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+
 
 form input[type="submit"] {
-    margin-top: 2rem;
+    margin-top: 6rem;
     padding: 0.4rem;
-    width: 80%;
+    width: 90%;
     background: #EC1D23;
     cursor: pointer;
     color:white;
@@ -32,4 +74,12 @@ form input[type="submit"] {
     font-weight: 200;
     border-radius: 4px;
    
+}
+
+.remember {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+        
+    
 }
