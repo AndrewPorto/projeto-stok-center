@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    
+}
+
+ 
+.icons:hover {
+    background-image: linear-gradient(#FFF, #4C4C4E);
+    cursor: pointer;
+    
+}
+

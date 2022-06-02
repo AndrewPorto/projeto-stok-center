@@ -146,14 +146,15 @@ header {
 
 .carousel .left {
     position: absolute;
-    left: 300px;
+    left: 15%;
 }
 
 .carousel .right {
     position: absolute;
-    right: 300px;
+    right: 15%;
 }
 
 .pagina02 {
     background-color: #EC1D23;
 }
+
