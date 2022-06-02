@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    
+}
+
+ a {
+    text-decoration: none;
+}
+
+.produtos {
+    text-align: center;
+}
+
+.produtos .toalha {
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    padding: 5px;
+}
+
+.produtos .toalha:hover {
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.produtos p {
+    font-size: 10pt;
+    color: #9595B0;
+    margin-top: 5px;
+}
+
+.produtos h2 {
+    text-align: left;
+    font-family: sans-serif;
+    border-radius: 4px;
+    background-color: #545456;
+    color: white;
+    font-size: 10pt;
+    padding: 6px;
+    width: 60%;
+    border: 1px solid black;  
+}
+
+.input-compra {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+#numero {
+    display: flex;
+    width: 30px;
+    height: 25px;
+    justify-content: left;
+   
+}
+
+.comprar {
+    display: flex;
+    background-color: #414143;
+    font-family: "Signika Negative", sans-serif;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    width: 100px;
+    
+  
+}
+
