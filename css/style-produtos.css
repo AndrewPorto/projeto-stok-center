@@ -12,28 +12,40 @@
 
 .produtos {
     text-align: center;
+   
 }
 
-.produtos .toalha {
+.produtos .itens {
     display: inline-block;
     text-align: center;
     width: 180px;
-    padding: 5px;
+    padding: 15px;
+    
 }
 
-.produtos .toalha:hover {
-    border: 2px solid black;
-    border-radius: 2px;
+.produtos .itens:hover {
+    transition: 1s;
+    border: 1px solid #545456;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 3px;
+    
+    
+}
+
+.img-itens{
+    margin-bottom: 10px;
 }
 
 .produtos p {
     font-size: 10pt;
     color: #9595B0;
     margin-top: 5px;
+    padding: 10px;
 }
 
 .produtos h2 {
-    text-align: left;
+    display: inline-block;
+    text-align: center;
     font-family: sans-serif;
     border-radius: 4px;
     background-color: #545456;

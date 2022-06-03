@@ -49,7 +49,10 @@ header {
     background-color: #282829;
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
 
 #search {
     display: flex;
@@ -137,6 +140,10 @@ header {
     padding-right: 10px;
 }
 
+.carousel .icons a p{
+    text-decoration: none;
+}
+
 .rolar {
     display: flex;
     
@@ -146,12 +153,12 @@ header {
     justify-content: right;
 }
 
-.carousel .left {
+.carousel .seta-esquerda {
     position: absolute;
     left: 15%;
 }
 
-.carousel .right {
+.carousel .seta-direita {
     position: absolute;
     right: 15%;
 }
